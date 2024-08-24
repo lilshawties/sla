@@ -46,14 +46,13 @@ Your ultimate music companion on Discord. Here are the available commands:
 [ /np      ] - Shows now playing song.
 [ /volume  ] - Sets the volume of the player.
 [ /ping    ] - Check bot latency.
-[ /support ] - Shows support server info.
 [ /help    ] - Display this help menu.
 \`\`\`
       `;
 
       const embed = new EmbedBuilder()
         .setColor(config.embedColor)
-        .setTitle(`${botName} Help`)
+        .setTitle(`${botName} Help commands`)
         .setThumbnail(client.user.displayAvatarURL()) 
         .setDescription(helpDescription)
         .setFooter({ text: `𓆝 𓆟 𓆞 𓆝 𓆟𓆝 𓆟 𓆞𓆟 𓆞 𓆝 𓆟𓆝𓆞`, iconURL: client.user.displayAvatarURL() }) 
