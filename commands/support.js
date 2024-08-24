@@ -29,7 +29,7 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-      const supportServerLink = "https://discord.gg/xQF9f9yUEM";
+      const supportServerLink = "https://discord.gg/PbMBtxkTGw";
       const githubLink = "https://github.com/GlaceYT";
       const replitLink = "https://replit.com/@GlaceYT";
       const youtubeLink = "https://www.youtube.com/@GlaceYT";
@@ -41,7 +41,7 @@ module.exports = {
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+            .setImage('https://cdn.discordapp.com/attachments/1237484291219259465/1240400275802685500/73f69b1d8d6449cce838650402cf2cd8.gif?ex=66ca4247&is=66c8f0c7&hm=40290b67472fc133de750b688d662d378f4a2c661d00f3950c53096b0c46c1fd&')
             .setTimestamp();
 
       return interaction.reply({ embeds: [embed] });
