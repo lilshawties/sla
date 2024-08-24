@@ -33,9 +33,9 @@ module.exports = {
 
       const helpDescription = `
 \`\`\`css
-Welcome to ${botName}!
+ ${botName}!
 
-Your ultimate music companion on Discord. Here are the available commands:
+Here are the available commands:
 
 [ /play    ] - Start playing the songs.
 [ /pause   ] - Pause the current song.
