@@ -7,7 +7,7 @@ async function skip(client, interaction) {
 
         if (!player) {
             const errorEmbed = new EmbedBuilder()
-                .setColor('#ff0000')
+                .setColor('#812f49')
                 .setTitle('Error')
                 .setDescription('❌ No active player found.');
 
@@ -26,7 +26,7 @@ async function skip(client, interaction) {
     } catch (error) {
         console.error('Error processing skip command:', error);
         const errorEmbed = new EmbedBuilder()
-            .setColor('#ff0000')
+            .setColor('#812f49')
             .setTitle('Error')
             .setDescription('❌ An error occurred while processing your request.');
 
